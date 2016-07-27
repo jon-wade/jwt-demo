@@ -1,0 +1,10 @@
+<img src="../img/ast-logo.jpg" width="147px" height="155px">
+<h1>Please Login</h1>
+<form id="loginForm" name="loginForm" novalidate>
+    <input id="username" name="username" ng-model="username" placeholder="please input username">
+    <button type="submit" name="login" id="login" ng-click="submit()">Login</button>
+</form>
+<button type="button" ng-click="go('/protected')">Go To Next Page</button>
+<p class="message" ng-if="tokenRcd">Token received from server and stored in Angular service</p>
+<p class="error" ng-if="loginError">Your username is not recognised, please try again.</p>
+<p class="error" ng-if="tokenError">You cannot access the next page because you either have not logged in or your username is not recognised. Please try again.</p>

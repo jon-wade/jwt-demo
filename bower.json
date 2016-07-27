@@ -1,0 +1,14 @@
+{
+  "name": "jwt-poc",
+  "description": "JWT proof of concept",
+  "main": "index.js",
+  "authors": [
+    "Jon Wade"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8"
+  }
+}
